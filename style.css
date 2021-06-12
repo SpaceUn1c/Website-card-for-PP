@@ -1,3 +1,5 @@
+
+
 input
 {
     width: 40%;
@@ -83,11 +85,14 @@ h1,p
 .main_page_div
 {
     border: 1px solid white;
+    overflow-x:hidden;
 }
 
 .main_page_input
 {
+    display: block;
     width: 70%;
+    position: center;
 }
 
 .head_main_page_div
@@ -173,4 +178,14 @@ h1,p
     transform: skew(-160deg);
     color:white;
     
+}
+
+.p_main_page
+{
+    text-align: left;
+}
+
+.main_page_input_radio
+{
+    width: 10%;
 }
