@@ -8,6 +8,7 @@ input
 button
 {
     width: 30%;
+    overflow-x:hidden;
 }
 
 a
@@ -86,6 +87,7 @@ h1,p
 {
     border: 1px solid white;
     overflow-x:hidden;
+    padding: 5% 5% 5% 5%;
 }
 
 .main_page_input
@@ -141,6 +143,7 @@ h1,p
 .upper_butt_div
 {
     overflow-x:hidden;
+    margin-top: 50%;
 }
 
 .upper_butt_1_rem
@@ -188,4 +191,9 @@ h1,p
 .main_page_input_radio
 {
     width: 10%;
+}
+
+.button_acc_remove_page
+{
+    margin-right: 40%;
 }
